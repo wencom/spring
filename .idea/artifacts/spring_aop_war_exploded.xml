@@ -20,6 +20,8 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-core:5.0.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.0.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.4" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-test:5.0.5.RELEASE" />
         </element>
       </element>
       <element id="directory" name="META-INF">

@@ -1,5 +1,10 @@
-package com.wencom.proxy.jdk;
+package com.wencom.proxy.cglib;
 
+
+import com.wencom.proxy.jdk.TargetInterface;
+import org.springframework.cglib.proxy.Enhancer;
+import org.springframework.cglib.proxy.MethodInterceptor;
+import org.springframework.cglib.proxy.MethodProxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -12,20 +17,24 @@ public class ProxyTest {
         final Target target = new Target();
         final Advice advice = new Advice();
 
-        //代理对象
-        TargetInterface proxy = (TargetInterface)Proxy.newProxyInstance(
-                target.getClass().getClassLoader(),
-                target.getClass().getInterfaces(),
-                new InvocationHandler() {
-                    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-                        advice.before();
-                        method.invoke(target, args);
-                        advice.afterReturn();
-                        return null;
-                    }
-                }
-        );
+        //创建增强器
+        Enhancer enhancer = new Enhancer();
+        //设置父类
+        enhancer.setSuperclass(target.getClass());
+        //设置回调
+        enhancer.setCallback(new MethodInterceptor() {
+            public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
+                //前置通知
+                advice.before();
+                target.save();
+                //后置通知
+                advice.afterReturn();
+                return null;
+            }
+        });
 
+        //创建代理对象
+        Target proxy = (Target) enhancer.create();
         proxy.save();
     }
 }

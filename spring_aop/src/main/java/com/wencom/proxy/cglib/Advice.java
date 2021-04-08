@@ -1,4 +1,4 @@
-package com.wencom.proxy.jdk;
+package com.wencom.proxy.cglib;
 
 public class Advice {
 

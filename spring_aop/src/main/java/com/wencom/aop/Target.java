@@ -1,4 +1,4 @@
-package com.wencom.proxy.jdk;
+package com.wencom.aop;
 
 public class Target implements TargetInterface {
     public void save() {

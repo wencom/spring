@@ -1,6 +1,6 @@
-package com.wencom.proxy.jdk;
+package com.wencom.proxy.cglib;
 
-public class Target implements TargetInterface {
+public class Target {
     public void save() {
         System.out.println("save running...");
     }
