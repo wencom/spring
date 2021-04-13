@@ -5,7 +5,9 @@
     <file type="web" url="file://$PROJECT_DIR$/spring_aop" />
     <file type="web" url="file://$PROJECT_DIR$/spring_ioc" />
     <file type="web" url="file://$PROJECT_DIR$/spring_ioc_anno" />
+    <file type="web" url="file://$PROJECT_DIR$/spring_mvc" />
     <file type="web" url="file://$PROJECT_DIR$/spring_tx" />
+    <file type="web" url="file://$PROJECT_DIR$/spring_tx_anno" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -18,6 +20,8 @@
         <option value="$PROJECT_DIR$/spring_ioc_anno/pom.xml" />
         <option value="$PROJECT_DIR$/spring-jdbc/pom.xml" />
         <option value="$PROJECT_DIR$/spring_tx/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_tx_anno/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_mvc/pom.xml" />
       </list>
     </option>
   </component>
