@@ -9,10 +9,12 @@
         <module name="spring_tx" />
         <module name="spring-jdbc" />
         <module name="spring_aop" />
+        <module name="springInterceptor" />
         <module name="spring_ioc_anno" />
-        <module name="spring_tx_anno" />
+        <module name="spring_test" />
         <module name="spring_ioc" />
         <module name="spring_mvc" />
+        <module name="spring_tx_anno" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,9 +23,11 @@
       <module name="spring_ioc" target="1.5" />
       <module name="spring_ioc_anno" target="1.5" />
       <module name="spring_mvc" target="1.5" />
+      <module name="spring_test" target="1.5" />
       <module name="spring_tx" target="1.5" />
       <module name="spring_tx (1)" target="1.5" />
       <module name="spring_tx_anno" target="1.5" />
+      <module name="springInterceptor" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
