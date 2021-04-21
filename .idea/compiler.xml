@@ -12,13 +12,15 @@
         <module name="spring_aop" />
         <module name="springInterceptor" />
         <module name="spring_ioc_anno" />
-        <module name="spring_ioc" />
+        <module name="mybatis_quick" />
         <module name="spring_test" />
+        <module name="spring_ioc" />
         <module name="spring_mvc" />
         <module name="spring_tx_anno" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="mybatis_quick" target="1.5" />
       <module name="spring-jdbc" target="1.5" />
       <module name="spring_aop" target="1.5" />
       <module name="spring_exception" target="1.5" />

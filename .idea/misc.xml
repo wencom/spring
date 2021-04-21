@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/mybatis_quick" />
     <file type="web" url="file://$PROJECT_DIR$/spring-jdbc" />
     <file type="web" url="file://$PROJECT_DIR$/spring_aop" />
     <file type="web" url="file://$PROJECT_DIR$/spring_exception" />
@@ -28,6 +29,7 @@
         <option value="$PROJECT_DIR$/springInterceptor/pom.xml" />
         <option value="$PROJECT_DIR$/spring_test/pom.xml" />
         <option value="$PROJECT_DIR$/spring_exception/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_quick/pom.xml" />
       </list>
     </option>
   </component>

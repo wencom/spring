@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/6.spring.iml" filepath="$PROJECT_DIR$/.idea/6.spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_quick/mybatis_quick.iml" filepath="$PROJECT_DIR$/mybatis_quick/mybatis_quick.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-jdbc/spring-jdbc.iml" filepath="$PROJECT_DIR$/spring-jdbc/spring-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/springInterceptor/springInterceptor.iml" filepath="$PROJECT_DIR$/springInterceptor/springInterceptor.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring_aop/spring_aop.iml" filepath="$PROJECT_DIR$/spring_aop/spring_aop.iml" />
